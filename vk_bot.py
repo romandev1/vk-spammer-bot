@@ -7,7 +7,7 @@ import random
 vk_session = vk_api.VkApi(token="# токен")
 
 vk = vk_session.get_api()
-longpoll = VkBotLongPoll(vk_session, "# id группы (без 'club')")
+longpoll = VkBotLongPoll(vk_session, "# id группы")
 
 memes = ["Привет", "Здравствуйте", "Как дела?"]
 codes = [1029, 4887, 9935, 2939, 4485]
