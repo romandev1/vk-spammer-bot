@@ -13,6 +13,7 @@ memes = ["Привет", "Здравствуйте", "Как дела?"]
 codes = [1029, 4887, 9935, 2939, 4485]
 code = 0
 
+
 def delcodes():
     if code == codes[0]:
         print("\nвызван " + id + ", " + str(num_call) + " раз, с интервалом " + str(interval) + " сек")
@@ -44,6 +45,7 @@ def delcodes():
         codes[4] = random.randint(10000, 15000)
         print("Новый код:", codes[4])
         print(codes)
+
 
 def call():
     delcodes()
